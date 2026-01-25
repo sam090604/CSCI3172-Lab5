@@ -1,0 +1,60 @@
+﻿# Lab 1
+
+
+Date Created : 25 JAN 2026
+Last Modification Date : 25 JAN 2026
+Lab Timberlea URL : https://web.cs.dal.ca/~ahirrao/csci3172/labs/lab1/ 
+Lab Gitlab URL : https://git.cs.dal.ca/ahirrao/csci-3172.git 
+
+
+ 
+## Authors
+
+
+Suyog Ahirrao - sy611345@dal.ca - (Maintainer)
+
+
+
+
+## Built With
+
+
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Used for the structure of the webpage.
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Used for styling the webpage.
+
+
+
+
+## Artificial Intelligence Tools Used
+
+
+* [ChatGPT/Gemini/Google AI] - The AI Tool used for troubleshooting Git and server permissions.
+
+
+### Prompt Used on Gemini
+
+
+
+
+"Hey i have a git lab account and i want to make a new project and want to put everything in my gitlab... teach me how to do that"
+"what should i put the permission codes"
+"https://web.cs.dal.ca/~ahirrao/csci3172/labs/lab1/. i am not able to access it on Browseer"
+
+
+The code prompt above was used to generate instructions for Git initialization and Timberlea server permissions shown below: 
+
+
+```bash
+# Permissions generated:
+chmod 755 ~/public_html
+chmod 755 ~/public_html/csci3172/labs/lab1
+chmod 644 index.html
+
+
+File Name
+Command Line / Terminal
+* How: The commands were implemented in the macOS Terminal and Timberlea SSH session.
+* Why: Used to resolve "403 Forbidden" errors on the Timberlea server and to link the local VS Code project to the GitLab remote.
+* How: Modified by replacing generic placeholders with my specific CSID (ahirrao) and path structure (labs/lab1).
+Acknowledgments
+* Instructions provided by the CSCI 3172 Lab 1 Manual.
