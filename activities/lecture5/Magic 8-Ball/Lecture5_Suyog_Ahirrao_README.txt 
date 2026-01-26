@@ -1,0 +1,27 @@
+# Lecture 5 - Magic 8-Ball & Fortune Cookie
+
+Date Created: 25 JAN 2026
+Last Modification Date: 25 JAN 2026
+Timberlea URL: https://web.cs.dal.ca/~ahirrao/csci3172/activities/lecture5/
+GitLab URL: https://git.cs.dal.ca/ahirrao/csci-3172.git
+
+## Author
+
+Suyog Ahirrao - sy611345@dal.ca - (Maintainer)
+
+## Built With
+
+* HTML5 - Used for the structure of the Magic 8-Ball webpage.
+* CSS3 - Used for the styling and layout.
+* JavaScript - Used for the randomized answer logic and DOM manipulation.
+
+## Deployment Notes
+
+* The project is stored in the 'lecture5' folder within the 'activities' folder in the 'csci3172' directory.
+* Permissions on the Timberlea server were set using 'chmod 755' for directories and 'chmod 644' for files to ensure accessibility.
+
+## Acknowledgments
+
+* Logic and structure based on CSCI 3172 Lecture 5 (L5V3) materials.
+* Fortune cookie sayings sourced from best-ever-cookie-collection.com.
+* Magic 8-Ball sayings sourced from magic-8ball.com.
