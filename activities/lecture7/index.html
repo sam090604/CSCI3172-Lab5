@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DOM Example - Lecture 7</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ <div id="wrapper">
+  <header>
+	  <h1><a href="#"><img src="images/Dal_Logo.png" alt="Dalhousie University Logo"></a></h1>
+	  <nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Login</a></li>
+		</ul>	  
+	  </nav>
+  </header>
+  <section id="col_1">
+	<h2 id="greeting"></h2>
+	<h3>DOM Interaction and Manipulation Activity</h3>
+  </section>
+  <section id="col_2">
+    <h2>Calculator & Array Tools</h2>
+	
+    <form action="#" method="post" onsubmit="return false;">
+		<p>Enter two numbers for calculation:</p>
+		<p>
+			<input type="number" placeholder="Number 1" id="number1">
+			<input type="number" placeholder="Number 2" id="number2">
+		</p>
+		<p>
+			<button onclick="calculate('add')">Add</button>
+			<button onclick="calculate('subtract')">Subtract</button>
+			<button onclick="calculate('multiply')">Multiply</button>
+			<button onclick="calculate('divide')">Divide</button>
+		</p>
+		<h4 id="calcResult">Result: </h4>
+  	</form>
+
+    <hr>
+
+    <div id="array-activity">
+        <h3>Array Analysis</h3>
+        <p>Enter numbers separated by commas (e.g., 3, 64, 23):</p>
+        <input type="text" id="arrayInput" placeholder="e.g. 10, 20, 30">
+        <button onclick="analyzeArray()">Analyze Array</button>
+        
+        <p><strong>Total Items are:</strong> <span id="evenOddTotal"></span></p>
+        <p><strong>Item Details:</strong> <span id="evenOddItems"></span></p>
+    </div>
+  </section>
+ </div>
+ <script src="js/script.js"></script>
+</body>
+</html>
