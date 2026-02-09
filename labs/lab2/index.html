@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Book - Lab 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <header>
+            <h1 id="page-title">Class Grade Book</h1>
+            <button id="back-btn" style="display:none;" onclick="showMainTable()">← Back to Grade Book</button>
+        </header>
+
+        <div id="grade-book-view">
+            <table id="gradeBookTable">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Course 1</th>
+                        <th>Course 2</th>
+                        <th>Course 3</th>
+                        <th>Course 4</th>
+                        <th>Avg. Numeric</th>
+                        <th>Avg. Letter</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+
+        <div id="detail-view" style="display:none;">
+            <h2 id="detail-student-name"></h2>
+            <div id="assessment-details"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
