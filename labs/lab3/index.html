@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonic Hub | Music IMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Harmonic Hub Inventory</h1>
+    </header>
+
+    <main>
+        <section id="add-item-form">
+            <h2>Restock Instrument</h2>
+            <form id="imsForm">
+                <input type="text" id="itemName" placeholder="Name" required>
+                <select id="itemCategory">
+                    <option value="Strings">Strings</option>
+                    <option value="Percussion">Percussion</option>
+                    <option value="Wind">Wind</option>
+                </select>
+                <input type="number" id="itemPrice" placeholder="Price" required>
+                <input type="number" id="itemStock" placeholder="Qty" required>
+                <button type="button" id="addBtn">Add to Map</button>
+            </form>
+        </section>
+
+        <section id="inventory-display">
+            <table id="inventoryTable">
+                <thead>
+                    <tr>
+                        <th>Instrument</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="inventoryBody"></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
