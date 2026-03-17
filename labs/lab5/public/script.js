@@ -22,7 +22,7 @@ searchForm.addEventListener('submit', async (e) => {
   unsplashResults.innerHTML = '<div class="col-span-3 text-center text-gray-400">Searching Unsplash...</div>';
 
   try {
-    const res = await fetch(`/api/search?query=${encodeURIComponent(query)}`);
+  const res = await fetch(`/.netlify/functions/search?query=${encodeURIComponent(query)}`);
     if (!res.ok) throw new Error('Server error');
     
     const data = await res.json();
